@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panier Perdu – Récupère les paniers abandonnés de ta boutique</title>
+<meta name="description" content="Deux relances automatiques et personnalisées pour récupérer les paniers abandonnés de ta boutique Shopify ou WooCommerce. 29 €/mois, sans engagement.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Panier Perdu – Récupère les paniers abandonnés de ta boutique">
+<meta property="og:description" content="Deux relances automatiques par panier abandonné. 29 €/mois, sans engagement, remboursé si ça ne te convient pas.">
+<meta property="og:image" content="https://VOTRE-DOMAINE.vercel.app/og.png">
+<meta property="og:url" content="https://VOTRE-DOMAINE.vercel.app/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#12285A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{--bleu:#12285A;--jaune:#FFD23F;--texte:#101828;--gris:#F2F3F5;--ligne:#D9DCE3;--blanc:#fff}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:'Bricolage Grotesque',system-ui,sans-serif;color:var(--texte);background:var(--blanc);line-height:1.55;font-size:17px;padding-bottom:84px}
+a{color:inherit}
+.w{max-width:640px;margin:0 auto;padding:0 20px}
+section{padding:44px 0;border-top:1px solid var(--ligne)}
+h1{font-size:clamp(34px,9vw,52px);line-height:1.04;font-weight:800;letter-spacing:-.02em}
+h2{font-size:26px;line-height:1.15;font-weight:800;letter-spacing:-.01em;margin-bottom:16px}
+p+p{margin-top:12px}
+.hero{background:var(--bleu);color:var(--blanc);border:0;padding:28px 0 40px}
+.logo{font-weight:800;font-size:18px;margin-bottom:36px}
+.logo b{background:var(--jaune);color:var(--bleu);padding:0 6px;margin-right:6px}
+.hero p.sous{font-size:19px;margin-top:18px;max-width:30em;color:#DCE3F5}
+.btn{display:block;text-align:center;background:var(--jaune);color:var(--bleu);font-weight:800;font-size:19px;text-decoration:none;padding:17px 20px;border-radius:6px;min-height:56px}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--texte);outline-offset:3px}
+.hero .btn{margin-top:28px}
+.note{font-size:14px;margin-top:10px;color:#DCE3F5}
+.ticket{background:var(--blanc);color:var(--texte);margin-top:32px;padding:18px 18px 8px;border-radius:4px;font-size:15px;border-bottom:6px dotted var(--jaune)}
+.ticket div{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px dashed var(--ligne)}
+.ticket div:last-child{border:0;font-weight:800}
+.ticket em{font-style:normal;color:var(--bleu);font-weight:800}
+ul.b{list-style:none;padding:0}
+ul.b li{padding:14px 0 14px 16px;border-left:4px solid var(--jaune);margin-bottom:12px;background:var(--gris)}
+ul.b strong{display:block}
+.offre{background:var(--gris)}
+.carte{background:var(--blanc);border:2px solid var(--bleu);border-radius:6px;padding:22px}
+.prix{font-size:44px;font-weight:800;line-height:1}
+.prix small{font-size:17px;font-weight:500}
+.carte ul{padding-left:20px;margin:14px 0}
+.garantie{border-left:6px solid var(--jaune);background:var(--blanc);padding:14px 16px;margin:16px 0}
+.carte .btn{background:var(--bleu);color:var(--blanc)}
+.carte .note{color:var(--texte)}
+details{border-bottom:1px solid var(--ligne);padding:14px 0}
+summary{font-weight:800;cursor:pointer;min-height:28px}
+details p{margin-top:8px}
+footer{padding:28px 0 20px;font-size:14px;border-top:1px solid var(--ligne)}
+footer a{margin-right:14px}
+.barre{position:fixed;left:0;right:0;bottom:0;padding:10px 16px;background:var(--blanc);border-top:1px solid var(--ligne);z-index:5}
+.barre .btn{padding:13px;min-height:52px}
+.legal{display:none;padding:28px 0 60px}
+.legal h2{margin-top:24px;font-size:20px}
+.legal:target{display:block}
+body:has(.legal:target) main,body:has(.legal:target) .barre{display:none}
+.ph{background:var(--jaune);padding:0 3px}
+@media(min-width:700px){.barre{display:none}body{padding-bottom:0}}
+</style>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+<main>
+<header class="hero"><div class="w">
+<div class="logo"><b>PP</b>Panier Perdu</div>
+<h1>Récupère les paniers que tes clients ont laissés.</h1>
+<p class="sous">Près de 7 paniers sur 10 sont abandonnés. Panier Perdu relance chacun d’eux deux fois, avec un message écrit pour la personne. 29 €/mois, relances illimitées.</p>
+<a class="btn" href="#offre">Réserver mon accès fondateur</a>
+<p class="note">Livraison avant le 22 novembre 2026. Remboursé si ça ne te convient pas.</p>
+<div class="ticket" aria-label="Exemple de panier récupéré">
+<div><span>Panier abandonné, Camille</span><span>64,00 €</span></div>
+<div><span>Relance 1, après 1 heure</span><span>ouverte</span></div>
+<div><span>Relance 2, après 24 heures, avec code</span><em>payée</em></div>
+<div><span>Chiffre d’affaires récupéré</span><span>57,60 €</span></div>
+</div>
+<p class="note">Exemple illustratif, avec un code de réduction de 10 %.</p>
+</div></header>
+
+<section><div class="w">
+<h2>Tu ne relances personne, et ça te coûte cher.</h2>
+<p>Les outils de relance sont vendus pour de gros volumes. Une boutique qui fait quelques dizaines de commandes par mois n’a pas de solution adaptée, alors les paniers abandonnés restent abandonnés.</p>
+<p>Un seul panier de 64 € récupéré dans le mois paie déjà plus de deux mois d’abonnement.</p>
+</div></section>
+
+<section><div class="w">
+<h2>Ce que tu obtiens</h2>
+<ul class="b">
+<li><strong>Branché à ta boutique</strong>Shopify ou WooCommerce. Les paniers abandonnés sont lus automatiquement.</li>
+<li><strong>Deux relances par panier</strong>Espacées et personnalisées avec le prénom et les produits laissés.</li>
+<li><strong>Un code de réduction, si tu le veux</strong>Proposé uniquement sur la seconde relance.</li>
+<li><strong>Le chiffre d’affaires récupéré, en euros</strong>Un compteur clair, sans tableau de bord compliqué.</li>
+</ul>
+</div></section>
+
+<section class="offre" id="offre"><div class="w">
+<h2>Accès fondateur</h2>
+<p>Tu réserves aujourd’hui au prix fondateur. L’outil complet est livré avant le <strong>22 novembre 2026</strong>, par email.</p>
+<div class="carte" style="margin-top:18px">
+<div class="prix">29 €<small> /mois</small></div>
+<p>Soit moins d’1 € par jour (0,95 €), pour une boutique.</p>
+<ul><li>Relances illimitées</li><li>Séquence de deux relances</li><li>Code de réduction facultatif</li><li>Compteur de chiffre d’affaires récupéré</li></ul>
+<div class="garantie"><strong>Satisfait ou remboursé.</strong> Si l’accès n’est pas livré le 22 novembre 2026, ou s’il ne te convient pas dans les 30 jours après la livraison, écris à <span class="ph">[TON EMAIL]</span> : tu es remboursé en totalité sous 5 jours ouvrés, sans justification.</div>
+<a class="btn" href="https://buy.stripe.com/test_cNiaEY2CZ7JafwcdL6fIs00">Payer 29 € et réserver</a>
+<p class="note"><strong>Sans engagement, résiliable à tout moment.</strong> Paiement sécurisé par Stripe.</p>
+</div>
+</div></section>
+
+<section><div class="w">
+<h2>Questions fréquentes</h2>
+<details><summary>Est-ce que ça marche pour ma boutique ?</summary><p>Si tu utilises Shopify ou WooCommerce et que des clients quittent leur panier avec leur adresse email renseignée, oui. Sans email, aucune relance n’est possible.</p></details>
+<details><summary>Combien de temps ça me prend ?</summary><p>Environ 10 minutes : tu branches ta boutique, tu relis les deux messages, tu actives. Ensuite, les relances partent seules.</p></details>
+<details><summary>Et si je veux arrêter ?</summary><p>Tu résilies quand tu veux, par un simple email, sans frais ni préavis. Dans les 30 jours suivant la livraison, tu es aussi remboursé.</p></details>
+<details><summary>À quoi sert exactement ce que je paie ?</summary><p>Tu paies l’accès au service : la lecture de tes paniers abandonnés, l’envoi des relances et le suivi du chiffre d’affaires récupéré. Aucune commission sur tes ventes.</p></details>
+</div></section>
+</main>
+
+<footer><div class="w">
+<a href="#mentions">Mentions légales</a><a href="#cgv">CGV</a><a href="#confidentialite">Confidentialité</a>
+</div></footer>
+
+<div class="barre"><a class="btn" href="#offre">Réserver mon accès fondateur</a></div>
+
+<section class="legal" id="mentions"><div class="w">
+<a href="#">← Retour à l’accueil</a>
+<h2>Mentions légales</h2>
+<p>Éditeur : <span class="ph">[RAISON SOCIALE ou NOM PRÉNOM]</span>, <span class="ph">[FORME JURIDIQUE]</span>, SIRET <span class="ph">[SIRET]</span>, <span class="ph">[ADRESSE]</span>. Contact : <span class="ph">[TON EMAIL]</span>.</p>
+<p>Directeur de la publication : <span class="ph">[NOM PRÉNOM]</span>.</p>
+<p><span class="ph">[Si micro-entreprise : TVA non applicable, article 293 B du CGI.]</span></p>
+<p>Hébergeur : Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.</p>
+</div></section>
+
+<section class="legal" id="cgv"><div class="w">
+<a href="#">← Retour à l’accueil</a>
+<h2>Conditions générales de vente</h2>
+<h2>1. Objet</h2><p>Les présentes conditions encadrent la vente de l’accès au service Panier Perdu (relance de paniers abandonnés) par l’éditeur désigné dans les mentions légales, à des professionnels.</p>
+<h2>2. Offre accès fondateur</h2><p>L’accès est vendu en précommande. Le service est livré par email avant le 22 novembre 2026.</p>
+<h2>3. Prix et paiement</h2><p>29 € par mois et par boutique, payés par carte via Stripe. Le premier paiement est débité à la commande, puis chaque mois. <span class="ph">[Prix TTC ou HT selon ton statut]</span></p>
+<h2>4. Résiliation</h2><p>L’abonnement est sans engagement. Le client résilie à tout moment par email, avec effet à la fin de la période payée.</p>
+<h2>5. Garantie satisfait ou remboursé</h2><p>Si le service n’est pas livré à la date indiquée, ou s’il ne convient pas au client dans les 30 jours suivant la livraison, le client est remboursé en totalité sous 5 jours ouvrés sur simple demande par email.</p>
+<h2>6. Responsabilité</h2><p>L’éditeur s’engage à fournir le service avec soin mais ne garantit aucun niveau de chiffre d’affaires récupéré.</p>
+<h2>7. Droit applicable</h2><p>Droit français. <span class="ph">[Tribunal compétent à préciser]</span></p>
+</div></section>
+
+<section class="legal" id="confidentialite"><div class="w">
+<a href="#">← Retour à l’accueil</a>
+<h2>Politique de confidentialité</h2>
+<p>Responsable du traitement : l’éditeur désigné dans les mentions légales, joignable à <span class="ph">[TON EMAIL]</span>.</p>
+<h2>Données collectées</h2><p>Lors du paiement, Stripe collecte ton email et tes informations de paiement ; nous n’avons pas accès à ton numéro de carte. Nous mesurons l’audience avec Vercel Web Analytics, sans cookie ni identification personnelle.</p>
+<h2>Finalités et durée</h2><p>Ces données servent à traiter ta commande, te livrer l’accès et respecter nos obligations comptables. Elles sont conservées le temps nécessaire à ces finalités.</p>
+<h2>Tes droits</h2><p>Tu peux demander l’accès, la rectification ou la suppression de tes données en écrivant à <span class="ph">[TON EMAIL]</span>. Tu peux aussi saisir la CNIL (cnil.fr).</p>
+</div></section>
+</body>
+</html>
